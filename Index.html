@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 2</title>
+    <link rel="stylesheet" href="../static/css/estilos.css">
+    
+    <!-- SECCION DE LINKS -->
+<link rel="shortcut icon" href="" type="image/x-icon">
+<script src="https://kit.fontawesome.com/a1124a3708.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!-- MENU PRINCIPAL -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Inkspiral</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./Index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./templates/Productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./templates/Contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tu Cuenta
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item bg-dark text-white" href="./templates/Inicio Sesion.html">Inicio Sesion</a></li>
+            <li><a class="dropdown-item bg-dark text-white" href="./templates/Registro.html">Registro</a></li>
+            <li><a class="dropdown-item bg-dark text-white" href="./Index.html">Cerrar Sesion</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- CARRUSEL DE IMAGENES -->
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://masbrand.co/wp-content/uploads/2024/08/mugs-para-empresas-y-regalos-1024x483.png" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://lh7-us.googleusercontent.com/0C4LgM1wZnL-gVDu1osD1p4GXBMHjjORzVO_Iq6KF0Kh9cuD0a0amp_ntV9EQ4Pt3GtxeEqp96HEjKYbvpHf5TKNw6pCWPOHeDqcwpsKUtcSr6EgNtCZKZ6DGEd25SttJ15SjjTFLfIVVND_Ft-cKAw" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://comunicacioneslatamjli.com/wp-content/uploads/2022/04/gorras-sublimadas-dia-de-las-madres.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- SECCION DE SERVICIOS (CARDS) -->
+ <section id="servicios" class="py-5 big-light">
+    <div class="container">
+        <h2 class="text center mb-4">Nuestros Servicios</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="https://i.etsystatic.com/50865130/r/il/6052b8/6402334441/il_fullxfull.6402334441_1zlb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Venta y Personalización de Mugs</h5>
+                        <p class="card-text">Vendemos y personalizamos mugs, para que lo tengas a tu estilo.</p>
+                        <a href="#" class="btn btn-primary">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+
+                    <div class="col-md-4 mb-4">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/originals/cd/cb/78/cdcb78a3552218fded1fa49caaa797c9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Venta y Personalización de Camisetas</h5>
+                        <p class="card-text">Vendemos y personalizamos camisetas, para que la tengas a tu estilo.</p>
+                        <a href="#" class="btn btn-primary">Ver mas</a>
+                    </div>
+                </div>
+        </div>
+
+                <div class="col-md-4 mb-4">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="https://img.freepik.com/fotos-premium/variedad-gorras-coloridas-expuestas-estantes-madera-tienda-minorista_116547-138972.jpg?w=360" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Venta y Personalización de Gorras </h5>
+                        <p class="card-text">Vendemos y personalisamos gorras, para que la tengas a tu estilo.</p>
+                        <a href="#" class="btn btn-primary">Ver mas</a>
+                    </div>
+                </div>
+        </div>
+        <!-- SECCION DE MARCAS -->
+         <section class="py-5 bg-white">
+            <div class="container">
+                <h2 class="text-center mb-4">Nuestros Clientes</h2>
+                <div class="marquee">
+                    <div class="marquee-content d-flex align-items-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQQCs5JkviKlCGFsQ_ocz9dzJ6HBxngjbc3g&s" alt="" class="mx-4" height="50px">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwxWjbiOX8rYuq720FgrIefCPVC-y-gHSUYg&s" alt="" class="mx-4" height="50px">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1280px-Adidas_Logo.svg.png" alt="" class="mx-4" height="50px">
+                        <img src="https://bespoketableware.com/wp-content/uploads/2019/03/borgonovo.png" alt="" class="mx-4" height="50px">
+                        <!-- DUPLICAR -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQQCs5JkviKlCGFsQ_ocz9dzJ6HBxngjbc3g&s" alt="" class="mx-4" height="50px">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwxWjbiOX8rYuq720FgrIefCPVC-y-gHSUYg&s" alt="" class="mx-4" height="50px">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1280px-Adidas_Logo.svg.png" alt="" class="mx-4" height="50px">
+                        <img src="https://bespoketableware.com/wp-content/uploads/2019/03/borgonovo.png" alt="" class="mx-4" height="50px">
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION CONTACTO -->
+            <section id="contacto" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Contactenos</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <form>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Escriba su nombre completo</div>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Correo</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Acepto Condiciones</label>
+    </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+                    </div>
+                    <!-- seccion de mapa -->
+                    <div class="col-md-6">
+                        <h5 class="mb-3">Nuestra Ubicacion</h5>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.860565295576!2d-74.08915002417122!3d4.618953195355775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f997aefff509d%3A0x7411e47b58dbe9!2sMALLPLAZA%2C%20Av.%20Cdad.%20de%20Quito%20%2328-80%2C%20Mallplaza%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1773759827103!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Footer con Redes Sociales -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p class="mb-2">&copy; Inkspiral 2025. Todos los derechos reservados.</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+
+
+        </div>
+    </div>
+ </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
